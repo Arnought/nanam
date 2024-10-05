@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.css';
-import Reservation from './SBOX/SBOX_Magat/Reservation';
-import About from './SBOX/SBOX_Isidro/SBOX_About';
-import Home from './Core/Home';
+import Home from './Core/Home.js';
+import Reservation from './SBOX/SBOX_Magat/SBOX_Reservation.js';
+import About from './SBOX/SBOX_Isidro/About.js';
+
 
 function App() {
   document.title = "Home";
